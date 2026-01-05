@@ -1,0 +1,109 @@
+
+.login-card {
+  display: flex;
+  width: 1100px;
+  height: 550px;
+  margin-left: 300px;
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+/* LEFT */
+.login-left {
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+/* RIGHT */
+.login-right {
+  width: 50%;
+  padding: 60px;
+}
+
+.login-right h2 {
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: black;
+  margin-bottom: 30px;
+}
+
+.login-right label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.login-right input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+.password-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-header span {
+  font-size: 13px;
+  color: #1e88e5;
+  cursor: pointer;
+}
+
+.signin-btn {
+  width: 100%;
+  padding: 14px;
+  background: #1e88e5;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.divider {
+  text-align: center;
+  margin: 25px 0;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.signup-text span {
+  color: #1e88e5;
+  cursor: pointer;
+}
